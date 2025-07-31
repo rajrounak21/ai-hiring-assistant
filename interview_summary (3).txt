@@ -1,0 +1,37 @@
+Candidate Name: raj rounak
+Email: raj rounak
+Phone: rajrounak365@gmail.com
+Experience: 789456123 years
+Position Applied: 1
+Location: ai&ml
+Tech Stack: python
+
+Technical Q&A:
+1. Q: What are the key differences between Python 2 and Python 3?
+   A: Python 3 is the future of Python with improved features and syntax, while Python 2 is outdated and no longer supported.
+Key differences include:
+
+print is a function in Python 3: print("Hello"), not a statement like in Python 2.
+
+Strings in Python 3 are Unicode by default.
+   Evaluation: ✅ Acceptable
+
+2. Q: How does Python manage memory, and what are the roles of the garbage collector?
+   A: Python manages memory using a private heap where all objects and data structures are stored. It uses reference counting to track object usage. When an object’s reference count drops to zero, it becomes eligible for deletion.
+
+The garbage collector handles memory cleanup, especially for cyclic references that reference counting alone can't resolve. It runs periodically to free unused memory and keep the program efficient.
+   Evaluation: ✅ Acceptable
+
+3. Q: Can you explain the concept of decorators in Python and provide a simple use case?
+   A: i dont know
+   Evaluation: ❎ Skipped
+
+4. Q: What are list comprehensions, and how do they differ from traditional for-loops in Python?
+   A: i dont know
+   Evaluation: ❎ Skipped
+
+5. Q: How does exception handling work in Python, and what are the common exceptions you might encounter?
+   A: i dont know
+   Evaluation: ❎ Skipped
+
+Interview Completed on: 2025-07-31 20:21:46
