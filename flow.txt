@@ -1,0 +1,55 @@
+TalentScout – AI Hiring Assistant
+
+Step-by-Step Flow:
+
+1. Language Selection
+   - User selects a language (English / Hindi) using dropdown.
+   - UI strings adapt based on selection. (Technical questions stay in English.)
+
+2. Greeting Phase
+   - Bot greets the user and introduces the interview process.
+   - Asks: "Shall we start?"
+
+3. Candidate Info Collection
+   - Bot asks sequential questions:
+     • Full name
+     • Email address
+     • Phone number
+     • Years of experience
+     • Position applying for
+     • Current location
+
+4. Tech Stack Selection
+   - Bot asks: “List the technologies/tools you're confident in.”
+   - User gives 3–5 technologies (e.g., Python, Django, SQL).
+
+5. Question Generation
+   - Based on tech stack, 3–5 technical questions are generated.
+   - Questions are asked one by one.
+
+6. Answer Evaluation Loop
+   - For each question:
+     a. User answers.
+     b. Bot evaluates using GPT.
+         • If ✅ Acceptable: Bot asks if ready for next question.
+         • If ❌ Unclear: Bot asks to retry.
+         • If ❎ Skipped: Bot moves to next.
+
+7. Completion
+   - After all questions, bot thanks the user.
+   - Generates summary file with:
+     • Candidate info
+     • Tech stack
+     • Questions, Answers, Evaluation
+   - Downloads available:
+     • interview_summary.txt
+     • interview_summary.pdf
+
+8. Optional Multilingual Support
+   - UI prompts translated into Hindi when selected.
+   - Technical questions and answers remain in English.
+
+Tools Used:
+- Streamlit for UI
+- OpenAI (GPT-4o-mini) for question generation and evaluation
+- FPDF for PDF export
