@@ -35,13 +35,13 @@ This project is an interactive AI-based Hiring Assistant that automates the init
 ├── interview_summary.txt  # Exported Q&A summary (TXT)
 ├── interview_summary.pdf  # Exported Q&A summary (PDF)
 ├── .env.example           # API key example
-├── flow.txt               # Step-by-step assignment breakdown
+├── flow.txt               # Step-by-step breakdowns 
 ├── README.md              # You're reading it
 ```
 
 ---
 
-## ⬆️ Flow Overview (As per Assignment)
+## ⬆️ Flow Overview 
 
 1. ✅ Greet user and explain process
 2. 🗞️ Collect personal information
